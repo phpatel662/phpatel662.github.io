@@ -1,0 +1,50 @@
+body {
+  background-size: cover;
+  background-image: url("codingPicture.jpg");
+}
+
+.jumbotron {
+  background-color: lightsteelblue;
+  font-family: 'Heebo', sans-serif;
+  font-size: 40px;
+  color: white;
+  margin: 0px;
+}
+
+.nav_bar {
+  font-size: 20px;
+}
+
+div.container {
+  margin: 0px;
+}
+
+#accordion {
+  margin: 0px;
+  margin-left: -10px;
+  margin-right: -310px;
+}
+
+#train {
+  font-family: 'Heebo', sans-serif;
+  color: blue;
+  font-size: 20px;
+}
+
+#bag {
+  font-family: 'Heebo', sans-serif;
+  color: blue;
+  font-size: 20px;
+}
+
+#trivia {
+  font-family: 'Heebo', sans-serif;
+  color: blue;
+  font-size: 20px;
+}
+
+#jrzchore {
+  font-family: 'Heebo', sans-serif;
+  color: blue;
+  font-size: 20px;
+}

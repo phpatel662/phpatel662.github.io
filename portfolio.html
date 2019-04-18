@@ -1,37 +1,104 @@
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-    <meta charset= "8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/restart.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Payal's Portfolio</title>
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+  <!-- jQuery library -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <!-- Popper JS -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  <!-- New CSS styles -->
+  <link rel="stylesheet" type="text/css" href="assets/css/newcss.css">
+  <link rel="stylesheet" type="text/css" href="assets/css/restart.css">
+  <link href="https://fonts.googleapis.com/css?family=Heebo" rel="stylesheet">
+
+
+  <div class="jumbotron">Payal's Profile <br><br>
+    <div class="nav_bar">
+      <ul class="nav nav-pills">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
 </head>
 
 <body>
-  <!--Beginning of Header -->
-  <header>
-    <div class ="header_main">Payal</div>
-    <div class ="header_with_links">
-      <ul>
-        <li><a href="index.html">About</a></li>
-        <li><a href="portfolio.html">Portfolio</a></li>
-        <li><a href="contact.html">Contact</a></li>
-     </ul>
-    </div>
-  </header>
-  <!-- End of Header -->
+  <div class="container">
 
-    <div class ="wrapper">
-  <h1 class= "portfolio">Portfolio</h1>
-  <hr>
-  <div class= "container_1"><a href= "https://phpatel662.github.io/i_love_trains/">Train Schedule</a></div>
-  <div class= "container_2"><img src= "https://avada.theme-fusion.com/wp-content/uploads/2014/09/port21.jpg" alt="portfolio" height="90px" weight="40px"></div>
-  <div class= "container_3"><img src= "https://avada.theme-fusion.com/wp-content/uploads/2014/09/port21.jpg" alt="portfolio" height="90px" weight="40px"></div>
-  <div class= "container_4"><img src= "https://avada.theme-fusion.com/wp-content/uploads/2014/09/port21.jpg" alt="portfolio" height="90px" weight="40px"></div>
-  <div class= "container_5"><img src= "https://avada.theme-fusion.com/wp-content/uploads/2014/09/port21.jpg" alt="portfolio" height="90px" weight="40px"></div>
-    </div>
-   <!--Footer-->
-   <footer>
-    Copyright 
-  </footer>
+    <div id="accordion">
+
+      <div class="card">
+        <div class="card-header">
+          <a class="card-link" data-toggle="collapse" href="#collapseOne">
+            <h6 id="trivia">Trivia Game</h6>
+          </a>
+        </div>
+        <div id="collapseOne" class="collapse show" data-parent="#accordion">
+          <div class="card-body">
+            <a href= " https://phpatel662.github.io/TriviaGame/"><img src="screen_shot_trivia.png" class="img_thumbnail" alt="Friends" width= 500px height=350px></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseTwo">
+           <h6 id= "bag">Bag Game</h6>
+          </a>
+        </div>
+        <div id="collapseTwo" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <a href="https://phpatel662.github.io/unit-4-game/"><img src="screen_shot_bag.png" class="img_thumbnail" alt="Bag" width= 500px height=500px></a>
+          </div>
+        </div>
+      </div>
+
+      <div class="card">
+        <div class="card-header">
+          <a class="collapsed card-link" data-toggle="collapse" href="#collapseThree">
+            <h6 id="train">Train Time</h6>
+          </a>
+        </div>
+        <div id="collapseThree" class="collapse" data-parent="#accordion">
+          <div class="card-body">
+            <a href="https://phpatel662.github.io/i_love_trains/"><img src="screen_shot_trains.png" class="img_thumbnail" alt="Bag" width= 500px height=350px></a>
+          </div>
+        </div>
+       
+        <div class="card">
+          <div class="card-header">
+            <a class="collapsed card-link" data-toggle="collapse" href="#collapseFour">
+              <h6 id="jrzchore">Jrzchore</h6>
+            </a>
+          </div>
+          <div id="collapseFour" class="collapse" data-parent="#accordion">
+            <div class="card-body">
+              <a href="https://willmcnamara.github.io/Project1/"><img src="jrzchore.png" class="img_thumbnail" alt="nj" width= 500px height=350px></a>
+            </div>
+          </div>
+        </div></div>
+   
+
+  </div>
+  </div>
 </body>
+
 </html>
